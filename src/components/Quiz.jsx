@@ -1,5 +1,6 @@
 import React from "react";
 import Questions from "./Questions";
+import data from "../Database/Data";
 
 const Quiz = () => {
   const handleNextPage = () => {
@@ -8,6 +9,7 @@ const Quiz = () => {
   const handlePrevPage = () => {
     console.log("On Prev Click");
   };
+
   return (
     <div className="container">
       <h1 className="title text-light">Quiz Application</h1>
