@@ -1,6 +1,5 @@
 import React from "react";
 import Questions from "./Questions";
-import data from "../Database/Data";
 
 const Quiz = () => {
   const handleNextPage = () => {
