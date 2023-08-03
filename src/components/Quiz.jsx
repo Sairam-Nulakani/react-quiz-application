@@ -1,4 +1,5 @@
 import React from "react";
+import Questions from "./Questions";
 
 const Quiz = () => {
   const handleNextPage = () => {
@@ -10,6 +11,7 @@ const Quiz = () => {
   return (
     <div className="container">
       <h1 className="title text-light">Quiz Application</h1>
+      <Questions />
       <div className="grid">
         <button className="btn prev" onClick={handlePrevPage}>
           Prev
