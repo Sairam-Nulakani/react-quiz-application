@@ -27,5 +27,6 @@ export const useFetchQuestion = () => {
         setGetData((prev) => ({ ...prev, serverError: err }));
       }
     })();
-  }, []);
+  }, [dispatch]);
+  return [getData, setGetData];
 };
